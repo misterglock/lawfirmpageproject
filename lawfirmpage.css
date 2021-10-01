@@ -1,0 +1,39 @@
+body {
+    background-image: url("images/nza_background.jpg");
+}
+.nav p {
+    color: lightgrey;
+    font-size: 22px;
+}
+.nav a {
+    color: rgb(0, 0, 0);
+}
+nav ul {
+    margin-right: 20%;
+    margin-left: auto;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    background-color: rgb(255, 255, 255);
+}
+footer .nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: transparent;
+    padding-left: 20%;
+    padding-right: 20%;
+    border-top: solid;
+    border-width: 2px;
+}
+footer .nav a {
+    font-size: 12px;
+}
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 85vw;
+}
+.wrapper {
+    /* adjust these to whatever makes the footer fit at the bottom of the page */
+  min-height: 80%;
+  margin-bottom: -70px;
+}
