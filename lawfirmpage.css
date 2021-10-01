@@ -1,6 +1,26 @@
 body {
     background-image: url("images/nza_background.jpg");
 }
+.container {
+    background-color: rgb(255, 255, 255);
+    height: 85vw;
+    margin-top: 5%;
+}
+.logo {
+    float: none;
+    padding-top: 10px;
+}
+.loginbtn{
+    float: right;
+    padding-right: 5%;
+}
+.loginbtn button {
+    background-color: grey;
+    color: white;
+    border: none;
+    border-radius: 15%;
+    padding: 10px;
+}
 .nav p {
     color: lightgrey;
     font-size: 22px;
@@ -27,10 +47,6 @@ footer .nav {
 }
 footer .nav a {
     font-size: 12px;
-}
-.container {
-    background-color: rgb(255, 255, 255);
-    height: 85vw;
 }
 .wrapper {
     /* adjust these to whatever makes the footer fit at the bottom of the page */
