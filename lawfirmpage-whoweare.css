@@ -5,6 +5,7 @@ body {
 .container {
     background-color: rgb(255, 255, 255);
     margin-top: 5%;
+    padding-bottom: 10%;
 }
 .logo {
     float: none;
@@ -63,125 +64,141 @@ footer ul h6 {
     border-width: 2px;
     padding-left: 250px;
 }
-
-
-
-
-
-
+​
 /* who we are by Anu */
 .wrapper {
     min-height: 650px;
     margin-bottom:-40px;
 }
-
+​
 .card{
     width:max-content;
-    max-height:400px;
-    margin-left:150px;
+    max-height:800px;
+    margin-left:45px;
 }
 .card-img-top{
     width:100%;
     height:100%;
 }
+​
 .card-title, .card-img-overlay hr,p{
     color:white;
 }
+.card-img-overlay{
+    overflow: auto;
+    height:100%;
+}
+​
 .listitems{
     list-style-type:none;
     margin:0;
     padding:0
 }
+#imghdr{
+    width:850px;
+    height:500px;
+}
  #contentimg{
     width: max-content;
-    height: max-content;
     margin-left:3px;
+    width:100%;
+    height:100%;
 } 
-
+​
+#contentimg img{
+    width:100%;
+}
+​
 #contentimg p{
     color: black;
 }
-
+​
  #contentimg .img-fluid{
     height:100%;
 } 
-
+​
 #sideimg{
-    width:10px;
+    margin-left:-50px;
 }
-
+​
 #welcome{
-    
     margin-left:170px;
-    margin-top:20px;
+    margin-top:-120px;
 }
-
+​
 #welcome p{
     margin-left:-165px;
     max-width: 575px;
     font-size:12px;
-    color:black; 
+    color:rgb(0, 0, 0); 
     font-weight:bold;
+    font-family: 'Roboto', sans-serif;
 }
-
+​
 #welcome #lorem{
     font-size:12px;
     font-weight: lighter;
-    /* font-family:sans-serif; */
+    padding:0px; 
+    margin-top:-17px;
+    max-width:800px;
+    font-family: 'Roboto', sans-serif;
 }
-
+​
 .col-md-2, .col-md-3, .col-md-4 .listitems li,p{
     font-size:12px;
     font-family: sans-serif;
 }
-
+​
 .subaddress{
     font-size:12px;
+    font-family: 'Roboto', sans-serif;
 }
-
+​
 #address{
-    margin-right: 18%;
+    margin-right: 7.5%;
     margin-left: auto;
-    margin-top:-75px;
+    margin-top:-70px;
     float: right;
+    font-family: 'Roboto', sans-serif;
 }
-
+​
 #address ul{
     list-style-type:none; 
     padding:0px; 
 }
-
+​
 #address ul p{
     margin:0px;
     font-size:12px;
     color:black; 
-    font-weight:bold
+    font-weight:bold;
+    font-family: 'Roboto', sans-serif;
 }
-
+​
 #firm{
     color:white; 
     font-size:12px;
 }
-
+​
 #content{
     width:500px;
     margin-left:60px;
     color:black;
 }
-
+​
 #col1{
     height:350px;
     float:left;
     margin-top:-16px;
 }
-
+​
 #col2{
     height:350px;
     float:left;
     margin-left:
     40px;margin-top:-16px;
 }
-
+​
 #col3{
     padding:0px;
     height:350px;
@@ -189,47 +206,33 @@ footer ul h6 {
     margin-top:-16px;
     margin-right:25px
 }
-
+​
 #list{
     width:600px;
     height:400px;
 }
-
+​
 .col-md-4, .col-md-8 h6{
     font-size:small;
 }
-
+​
 .col-md-4 hr{
-    margin:0px; width:80px;
+    margin:0px; 
+    width:80px;
 }
-
+​
 .col-md-8 hr{
     margin-top:0px;
 }
-
-
+​
+​
 .card-img-overlay img{
     width:100%;
 }
-
+​
 .card-img-overlay h6{
     color:white;
     font-size: small;
     margin-top:8px;
 }
-
-.scrollable{
-    overflow-y: auto;
-    max-height: 280px;
-    /* margin-top:-50px; */
-    /*width:145px; */
-  }
-
-/* @media (max-width: 768px) {
-    
-  }
-  
-  @media (max-width: 420px) {
-    min-height:300px;
-  }
-   */
+​
