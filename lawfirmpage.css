@@ -29,12 +29,17 @@ body {
     color: rgb(0, 0, 0);
 }
 nav ul {
-    margin-right: 20%;
-    margin-left: auto;
+    margin-right: 3px;
+    margin-left: 3px;
     border-top: solid;
     border-bottom: solid;
     border-width: 2px;
     background-color: rgb(255, 255, 255);
+    width: 100vw;
+}
+nav .nav {
+    
+    justify-content: space-around;
 }
 footer .nav {
     display: flex;
